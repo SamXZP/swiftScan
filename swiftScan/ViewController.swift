@@ -24,6 +24,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         ["二维码/条形码生成", "myCode"],
         ["相册", "openLocalPhotoAlbum"]
     ]
+    /*
+     系统5.0更换了uiimage的系统方法，现在已经替换完，有需要的自己下载
+     */
 
     override func viewDidLoad() {
         super.viewDidLoad()
